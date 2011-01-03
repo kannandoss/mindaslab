@@ -1,0 +1,47 @@
+body{
+	background: black;
+}
+
+#main{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background: white;
+}
+
+h1.logo{
+	width: 96%;
+	text-align: right;
+	border-top: 3px solid red;
+	font-size: 32pt;
+	color: blue;
+	margin-left: 2%;
+	margin-right: 2%;
+	font-weight: normal;
+}
+
+div.spacer{
+	height: 2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#menu{
+	width: 190px;
+	float: left;
+	background: white;
+	padding: 5px;
+	height: auto;
+	font-size: 10pt;
+}
+#menu li{
+	list-style-type: none;
+}
+
+#content{
+	width: 690px;
+	float: right;
+	background: white;
+	height: auto;
+	padding: 5px;
+}
